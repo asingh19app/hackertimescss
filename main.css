@@ -23,15 +23,28 @@ h1 {
 
 nav {
     font-family: monospace;
-    color: #777;
     margin:0 150px;
+    position: sticky;
+    top: 10px;
+
+}
+
+a {
+    color: #777;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }
 
 h4 {
     color: red;
 }
 
-span {
+section{
 
+    width: 45%;
     display: inline-block;
+
 }
